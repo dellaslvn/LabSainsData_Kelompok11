@@ -53,4 +53,3 @@ Laporan lengkap Progress Week 1 kami simpan dan perbarui melalui Google Docs. Do
 
 Setelah menentukan masalah utama, kami akan menyusun Lembar Rencana Data, memeriksa sumber dan kelayakan penggunaan data, kemudian melanjutkan proses analisis sesuai tahapan mata kuliah.
 
-> **Catatan:** Repositori ini masih berisi dokumentasi progress awal. Dataset, model analisis, dan hasil akhir belum tersedia pada Week 1.
