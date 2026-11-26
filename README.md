@@ -16,23 +16,6 @@ Proyek ini membantu penjual online menentukan aspek perbaikan yang perlu diprior
 ### Sumber data
 Lihat [`DATA-SOURCES.md`](DATA-SOURCES.md) untuk tiga sumber yang sudah diperiksa. Dataset utama yang saat ini tersedia di folder kerja adalah `tokopedia-product-reviews-2019.csv`. Dua sumber lain merupakan pembanding/alternatif dan tidak otomatis digabungkan ke dataset utama.
 
-### Struktur folder yang disarankan
-```text
-.
-├── README.md
-├── DATA-SOURCES.md
-├── DATA-CARD.md
-├── HARNESS.md
-├── LOG-AI.md
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── sample/
-├── docs/
-│   ├── keputusan-dan-pertanyaan.md
-│   └── anotasi/
-└── notebooks/
-```
 
 ### Status saat ini
 | Komponen | Status |
