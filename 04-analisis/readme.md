@@ -1,1 +1,1 @@
-enjelaskan tempat penyimpanan notebook analisis deskriptif, diagnostik, prediktif, dan preskriptif.
+Menjelaskan tempat penyimpanan notebook analisis deskriptif, diagnostik, prediktif, dan preskriptif.
