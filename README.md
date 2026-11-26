@@ -155,41 +155,8 @@ Tabel berikut menunjukkan kesinambungan pengerjaan proyek berdasarkan tahapan pe
 
 Status akan diperbarui secara berkala berdasarkan perkembangan pekerjaan kelompok.
 
-## 7. Struktur Repository
 
-Repository ini disusun berdasarkan fungsi dokumentasi dan tahapan pengolahan data.
-
-```text
-LabSainsData_Kelompok11/
-│
-├── README.md
-├── .gitignore
-├── LOG-PENGGUNAAN-AI.md
-│
-├── 01-dokumentasi/
-│   ├── README.md
-│   ├── Laporan_Progress_Week_1.pdf
-│   └── Laporan_Lanjutan_Progress_Week_1.docx
-│
-├── 02-data/
-│   ├── README.md
-│   ├── dataset_ulasan_perangkat_handphone.csv
-│   ├── sampel_anotasi_ulasan_300.csv
-│   └── kamus_data.csv
-│
-├── 03-visualisasi/
-│   ├── README.md
-│   ├── distribusi_kategori_dataset.png
-│   └── distribusi_rating_handphone.png
-│
-├── 04-analisis/
-│   └── README.md
-│
-└── 05-referensi/
-    └── README.md
-```
-
-## 8. Dokumentasi Penggunaan AI
+## 7. Dokumentasi Penggunaan AI
 
 Dalam proses pengerjaan, kelompok menggunakan bantuan AI sebagai pendukung eksplorasi ide, penyusunan rancangan analisis, dan persiapan pengolahan data.
 
@@ -203,7 +170,7 @@ Setiap penggunaan AI akan didokumentasikan, termasuk:
 
 Hasil AI tidak langsung dianggap benar dan tetap harus diperiksa berdasarkan sumber data serta kebutuhan akademik.
 
-## 9. Referensi dan Sumber Data
+## 8. Referensi dan Sumber Data
 
 1. Farhamu. (2019). *Tokopedia Product Reviews 2019*. Hugging Face Dataset.  
    https://huggingface.co/datasets/farhamu/tokopedia-product-reviews-2019
@@ -215,16 +182,16 @@ Hasil AI tidak langsung dianggap benar dan tetap harus diperiksa berdasarkan sum
 4. Dokumentasi Hugging Face Datasets:  
    https://huggingface.co/docs/datasets
 
-## 10. Dokumen Laporan Proyek
+## 9. Dokumen Laporan Proyek
 
 Dokumen laporan disusun secara bertahap mengikuti perkembangan proyek.
 
 - **Progress Week 1:** Identifikasi dan pemilihan permasalahan bisnis.
 - **Laporan Lanjutan:** Pemilihan sumber data, pemeriksaan kualitas data, penyaringan dataset, dan analisis deskriptif awal.
 
-Laporan lengkap dan berkas pendukung dapat ditemukan pada folder `01-dokumentasi/` dan `02-data/`.
+Laporan lengkap dan berkas pendukung dapat ditemukan pada folder `01-dokumentasi/` dan `02-data/`. atau https://docs.google.com/document/d/1qD2KYvRHlX5UdEqt_ob4JIAh346sGb7m_THqDHAQZ9Q/edit?usp=sharing
 
-## 11. Rencana Pengembangan Selanjutnya
+## 10. Rencana Pengembangan Selanjutnya
 
 Setelah tahap pemeriksaan dan persiapan data, kelompok akan melanjutkan proses anotasi manual, validasi label, analisis diagnostik, pengembangan model prediktif, serta penyusunan rekomendasi preskriptif.
 
