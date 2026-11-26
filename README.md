@@ -1,55 +1,239 @@
-# Proyek Lab Sains Data — Kelompok 11
+# PROYEK LAB SAINS DATA — KELOMPOK 11
 
-Repositori ini digunakan untuk mencatat perkembangan tugas kelompok pada mata kuliah **Lab Sains Data**, Program Studi Bisnis Digital, Fakultas Ekonomika dan Bisnis, Universitas Diponegoro. Pada tahap awal, kami mencoba menemukan masalah di sekitar mahasiswa dan kegiatan usaha yang berpotensi dibantu dengan analisis data.
+## Analisis Ulasan Pelanggan Tokopedia untuk Penentuan Prioritas Perbaikan Produk
 
-## Fokus Progress Week 1
+Repositori ini digunakan untuk mendokumentasikan seluruh perkembangan proyek kelompok pada mata kuliah **Lab Sains Data**, Program Studi Bisnis Digital, Fakultas Ekonomika dan Bisnis, Universitas Diponegoro.
 
-Pada minggu pertama, kami menyusun **30 permasalahan** dari kehidupan mahasiswa, UMKM, dan bisnis digital. Dari daftar tersebut, kami memilih **3 calon permasalahan** yang dinilai paling memungkinkan untuk dikaji melalui empat jenis analitik: **deskriptif, diagnostik, prediktif, dan preskriptif**.
+Proyek ini berangkat dari permasalahan bisnis penjual online yang mengalami kesulitan dalam mengidentifikasi dan menentukan prioritas keluhan pelanggan berdasarkan ulasan yang diberikan. Melalui pendekatan analisis data, kelompok berupaya mengolah informasi berupa teks ulasan dan rating pelanggan menjadi informasi yang dapat mendukung pengambilan keputusan bisnis.
 
-Tiga calon permasalahan yang kami pilih adalah:
+---
+
+## Identitas Proyek
+
+| Keterangan | Informasi |
+|---|---|
+| Mata Kuliah | Lab Sains Data |
+| Dosen Pengampu | Nana Varian Januardi, S.E., MBA |
+| Program Studi | Bisnis Digital |
+| Fakultas | Ekonomika dan Bisnis |
+| Universitas | Universitas Diponegoro |
+| Kelompok | 11 |
+| Tahun Akademik | 2026 |
+
+### Anggota Kelompok
+
+1. Della Selviana
+2. Keyra Anantasya P
+3. Augustinus Giovanni
+
+---
+
+## 1. Latar Belakang dan Identifikasi Permasalahan
+
+Pada tahap awal proyek, kelompok melakukan identifikasi terhadap berbagai permasalahan yang ditemukan di lingkungan mahasiswa, kegiatan UMKM, dan aktivitas bisnis digital.
+
+Sebanyak **30 permasalahan** berhasil dihimpun dan kemudian diseleksi menjadi tiga calon permasalahan yang dinilai berpotensi dikembangkan melalui pendekatan analisis data.
+
+Tiga permasalahan yang dipertimbangkan adalah:
 
 1. Mahasiswa kesulitan memilih kos sesuai anggaran, lokasi, dan fasilitas.
 2. Usaha makanan kesulitan menentukan jumlah porsi yang perlu disiapkan.
 3. Penjual online kesulitan menentukan keluhan pelanggan yang perlu diprioritaskan.
 
-Untuk sementara, kami menempatkan **prioritas keluhan pelanggan online** sebagai calon topik utama. Pilihan ini masih dapat berubah setelah diskusi dan pemeriksaan lebih lanjut.
+Berdasarkan pertimbangan awal, kelompok memilih permasalahan ketiga sebagai fokus utama proyek, yaitu kesulitan penjual online dalam menentukan prioritas keluhan pelanggan.
 
-## Tahapan dan Progress Proyek
+Permasalahan tersebut dipilih karena ulasan pelanggan mengandung informasi mengenai pengalaman pembelian, penilaian produk, dan kemungkinan permasalahan yang perlu ditindaklanjuti oleh penjual.
 
-Tabel ini mengikuti alur kerja dari Pertemuan 8 sampai Pertemuan 14. Kolom status menunjukkan pekerjaan yang **benar-benar sudah kami susun**, bukan target yang dianggap sudah selesai.
+## 2. Keputusan Bisnis
 
-| Tahap | Kegiatan | Hasil yang ditargetkan | Status |
-|:---:|---|---|:---:|
-| Week 1 | Mengidentifikasi 30 permasalahan di sekitar mahasiswa, UMKM, dan bisnis digital | Daftar 30 calon masalah | Selesai |
-| Week 1 | Menyeleksi 3 permasalahan yang paling mungkin dikembangkan | Tiga kandidat permasalahan | Selesai |
-| Week 1 | Menguraikan potensi analitik deskriptif, diagnostik, prediktif, dan preskriptif untuk ketiga kandidat | Rancangan analisis awal | Selesai |
-| P8 | Memilih satu masalah utama serta merumuskan keputusan, alternatif, ukuran pembeda, dan batas keputusan | Lembar Rencana Data (1 halaman) | Belum |
-| P8 | Memeriksa 5 rekomendasi sumber data dari AI dan menghitung persentase saran yang salah | Lembar Verifikasi 5 Sumber | Belum |
-| P8 | Mengambil satu berkas data mentah dan mendokumentasikan asal-usul serta batas penggunaannya | Data mentah dan `README_data` | Belum |
-| P8 | Mencatat penggunaan AI, hasil pemeriksaan, dan perbaikan selama proses kerja | Log AI | Belum |
-| Persiapan P9 | Menyiapkan sekitar 300 teks/ulasan sebagai bahan latihan klasifikasi | Kumpulan teks awal | Belum |
-| P9 | Memberi label pada teks dengan bantuan AI, lalu memeriksa 50 hasil label secara manual | Data berlabel dan perhitungan ketepatan AI | Belum |
-| P10 | Membersihkan data, mencatat perubahan, dan mengajukan pertanyaan dengan SQL di DuckDB | Tabel bersih, log pembersihan, dan hasil kueri SQL | Belum |
-| P11 | Menguji klaim atau kesimpulan AI terhadap data serta mencatat hasil verifikasi dan koreksinya | Catatan pemeriksaan dan revisi analisis | Belum |
-| P12 | Membandingkan skenario dan menyusun keputusan berdasarkan temuan data | Memo keputusan dan alasan pemilihan | Belum |
-| P13 | Membuat dasbor dan notebook analisis serta meminta kelompok lain mencoba notebook | Dasbor, notebook, dan hasil uji coba | Belum |
-| P14 | Menyajikan keputusan akhir dan merangkum proses proyek sebagai portofolio | Presentasi akhir dan satu kasus portofolio | Belum |
+Keputusan bisnis yang ingin didukung melalui proyek ini adalah:
 
-**Keterangan status:** **Selesai** berarti hasil rancangan awal Week 1 sudah ditulis dalam laporan. **Belum** berarti belum ada hasil pengerjaan yang diklaim. Status akan kami perbarui mengikuti pekerjaan kelompok pada pertemuan berikutnya.
+**Menentukan jenis permasalahan pelanggan yang perlu diprioritaskan untuk diperbaiki oleh penjual online berdasarkan informasi dalam ulasan pelanggan.**
 
-## Dokumen Laporan
+Pada tahap analisis awal, ruang lingkup proyek difokuskan pada ulasan produk perangkat handphone di Tokopedia, terutama aspek kualitas produk.
 
-Laporan lengkap Progress Week 1 kami simpan dan perbarui melalui Google Docs. Dokumen tersebut berisi daftar 30 permasalahan, alasan pemilihan tiga masalah, serta rancangan analisis awal.
+Aspek pengemasan, pengiriman, dan pelayanan penjual tetap dapat dicatat apabila ditemukan dalam ulasan, tetapi tidak menjadi fokus utama pemodelan pada tahap ini.
 
-**[Buka Laporan Progress Week 1 — Google Docs](https://docs.google.com/document/d/1qD2KYvRHlX5UdEqt_ob4JIAh346sGb7m_THqDHAQZ9Q/edit?usp=sharing)**
+## 3. Empat Jenis Analitik dan Pertanyaan Analitik
 
-## Tim Kelompok 11
+Proyek ini menggunakan empat pendekatan analitik sebagai dasar pengolahan dan interpretasi data.
 
-- Della Selviana
-- Keyra Anantasya P
-- Augustinus Giovanni
+| Jenis Analitik | Pertanyaan Analitik |
+|---|---|
+| Descriptive Analytics | Bagaimana distribusi rating dan tema keluhan kualitas produk yang ditemukan dalam ulasan perangkat handphone? |
+| Diagnostic Analytics | Pola masalah kualitas produk apa yang lebih sering ditemukan pada ulasan dengan rating rendah setelah teks diperiksa dan diberi label secara manual? |
+| Predictive Analytics | Seberapa baik model klasifikasi teks dapat mengidentifikasi kategori masalah kualitas produk pada ulasan baru berdasarkan data berlabel yang telah diverifikasi? |
+| Prescriptive Analytics | Jenis masalah kualitas produk apa yang sebaiknya diprioritaskan berdasarkan frekuensi temuan terverifikasi, rating, dan tingkat dampak atau urgensi? |
 
-## Langkah Selanjutnya
+## 4. Sumber dan Karakteristik Data
 
-Setelah menentukan masalah utama, kami akan menyusun Lembar Rencana Data, memeriksa sumber dan kelayakan penggunaan data, kemudian melanjutkan proses analisis sesuai tahapan mata kuliah.
+Dataset utama yang digunakan adalah **Tokopedia Product Reviews 2019**.
 
+Sumber dataset:
+https://huggingface.co/datasets/farhamu/tokopedia-product-reviews-2019
+
+Karakteristik dataset sumber:
+
+- Jumlah data: 40.607 ulasan.
+- Jumlah atribut: 8 kolom.
+- Kategori produk: 5 kategori.
+- Format: CSV.
+- Bahasa ulasan: Indonesia.
+- Lisensi yang dicantumkan pada dataset card: Apache 2.0.
+
+Dataset memiliki beberapa atribut utama, yaitu:
+
+- `text`: isi ulasan pelanggan.
+- `rating`: penilaian pelanggan dari 1 sampai 5.
+- `category`: kategori produk.
+- `product_name`: nama produk.
+- `product_id`: identitas produk.
+- `sold`: informasi jumlah produk terjual.
+- `shop_id`: identitas toko.
+- `product_url`: tautan produk.
+
+## 5. Hasil Pemeriksaan dan Seleksi Data
+
+Kategori handphone pada dataset sumber memiliki 6.136 ulasan. Namun, kategori tersebut juga dapat mencakup aksesori dan komponen produk.
+
+Untuk meningkatkan relevansi data, kelompok melakukan penyaringan berdasarkan nama dan karakteristik produk.
+
+Hasil pemeriksaan awal:
+
+| Keterangan | Jumlah |
+|---|---:|
+| Ulasan kategori handphone pada sumber | 6.136 |
+| Kandidat setelah penyaringan produk | 1.279 |
+| Pasangan duplikat produk dan teks yang dihapus | 2 |
+| Subset operasional setelah penyaringan | 1.277 |
+| Produk unik | 18 |
+| Toko unik | 7 |
+
+Subset tersebut digunakan sebagai dasar analisis deskriptif awal dan persiapan anotasi.
+
+### Distribusi Rating
+
+Distribusi rating pada 1.277 ulasan yang telah disaring:
+
+| Rating | Jumlah |
+|---|---:|
+| 1 | 14 |
+| 2 | 101 |
+| 3 | 191 |
+| 4 | 335 |
+| 5 | 636 |
+| **Total** | **1.277** |
+
+Rating 5 merupakan kategori terbanyak dalam subset. Namun, rating tidak secara otomatis menunjukkan jenis keluhan atau sentimen dalam teks. Oleh karena itu, pemeriksaan isi ulasan tetap diperlukan.
+
+## 6. Tahapan dan Progress Proyek
+
+Tabel berikut menunjukkan kesinambungan pengerjaan proyek berdasarkan tahapan perkuliahan dan hasil yang benar-benar telah disiapkan.
+
+| Tahap | Kegiatan | Status |
+|---|---|:---:|
+| Week 1 | Mengidentifikasi 30 permasalahan bisnis | Selesai |
+| Week 1 | Menyeleksi 3 calon permasalahan | Selesai |
+| Week 1 | Menyusun rancangan empat jenis analitik | Selesai |
+| P8 | Menetapkan masalah utama dan keputusan bisnis | Selesai |
+| P8 | Memilih sumber data dan melakukan pemeriksaan awal | Selesai |
+| P8 | Menyaring dataset berdasarkan relevansi produk | Selesai |
+| P8 | Menyusun kamus data dan dokumentasi sumber | Selesai |
+| P9 | Menyiapkan sampel 300 ulasan untuk anotasi | Disiapkan |
+| P9 | Melakukan pelabelan dan verifikasi manual | Belum |
+| P10 | Melakukan pembersihan lanjutan dan analisis SQL menggunakan DuckDB | Belum |
+| P11 | Memeriksa klaim dan hasil analisis terhadap data | Belum |
+| P12 | Membandingkan alternatif dan menyusun memo keputusan | Belum |
+| P13 | Membuat dashboard dan notebook analisis | Belum |
+| P14 | Menyusun keputusan akhir dan portofolio proyek | Belum |
+
+**Keterangan status:**
+
+- **Selesai:** pekerjaan telah dilakukan dan memiliki hasil yang dapat diperiksa.
+- **Disiapkan:** perangkat atau bahan kerja telah tersedia, tetapi belum seluruh prosesnya dilaksanakan.
+- **Belum:** kegiatan belum dilaksanakan dan belum diklaim sebagai hasil proyek.
+
+Status akan diperbarui secara berkala berdasarkan perkembangan pekerjaan kelompok.
+
+## 7. Struktur Repository
+
+Repository ini disusun berdasarkan fungsi dokumentasi dan tahapan pengolahan data.
+
+```text
+LabSainsData_Kelompok11/
+│
+├── README.md
+├── .gitignore
+├── LOG-PENGGUNAAN-AI.md
+│
+├── 01-dokumentasi/
+│   ├── README.md
+│   ├── Laporan_Progress_Week_1.pdf
+│   └── Laporan_Lanjutan_Progress_Week_1.docx
+│
+├── 02-data/
+│   ├── README.md
+│   ├── dataset_ulasan_perangkat_handphone.csv
+│   ├── sampel_anotasi_ulasan_300.csv
+│   └── kamus_data.csv
+│
+├── 03-visualisasi/
+│   ├── README.md
+│   ├── distribusi_kategori_dataset.png
+│   └── distribusi_rating_handphone.png
+│
+├── 04-analisis/
+│   └── README.md
+│
+└── 05-referensi/
+    └── README.md
+```
+
+## 8. Dokumentasi Penggunaan AI
+
+Dalam proses pengerjaan, kelompok menggunakan bantuan AI sebagai pendukung eksplorasi ide, penyusunan rancangan analisis, dan persiapan pengolahan data.
+
+Setiap penggunaan AI akan didokumentasikan, termasuk:
+
+- Tujuan penggunaan AI.
+- Pertanyaan atau instruksi yang diberikan.
+- Hasil yang dihasilkan AI.
+- Proses pemeriksaan dan verifikasi.
+- Koreksi apabila terdapat informasi yang tidak sesuai.
+
+Hasil AI tidak langsung dianggap benar dan tetap harus diperiksa berdasarkan sumber data serta kebutuhan akademik.
+
+## 9. Referensi dan Sumber Data
+
+1. Farhamu. (2019). *Tokopedia Product Reviews 2019*. Hugging Face Dataset.  
+   https://huggingface.co/datasets/farhamu/tokopedia-product-reviews-2019
+
+2. Materi perkuliahan Lab Sains Data, Pertemuan 8: Dari Keputusan ke Data.
+
+3. Panduan Tugas Kecil 1: Paket Dasar, Keputusan, dan Sumber Data.
+
+4. Dokumentasi Hugging Face Datasets:  
+   https://huggingface.co/docs/datasets
+
+## 10. Dokumen Laporan Proyek
+
+Dokumen laporan disusun secara bertahap mengikuti perkembangan proyek.
+
+- **Progress Week 1:** Identifikasi dan pemilihan permasalahan bisnis.
+- **Laporan Lanjutan:** Pemilihan sumber data, pemeriksaan kualitas data, penyaringan dataset, dan analisis deskriptif awal.
+
+Laporan lengkap dan berkas pendukung dapat ditemukan pada folder `01-dokumentasi/` dan `02-data/`.
+
+## 11. Rencana Pengembangan Selanjutnya
+
+Setelah tahap pemeriksaan dan persiapan data, kelompok akan melanjutkan proses anotasi manual, validasi label, analisis diagnostik, pengembangan model prediktif, serta penyusunan rekomendasi preskriptif.
+
+Seluruh proses akan didokumentasikan secara bertahap agar repository ini dapat menjadi rekam jejak pengerjaan sekaligus portofolio proyek analisis data kelompok.
+
+---
+
+**Kelompok 11 | Lab Sains Data**  
+Program Studi Bisnis Digital  
+Fakultas Ekonomika dan Bisnis  
+Universitas Diponegoro  
+2026
