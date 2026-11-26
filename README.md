@@ -186,10 +186,10 @@ Hasil AI tidak langsung dianggap benar dan tetap harus diperiksa berdasarkan sum
 
 Dokumen laporan disusun secara bertahap mengikuti perkembangan proyek.
 
-- **Progress Week 1:** Identifikasi dan pemilihan permasalahan bisnis.
-- **Laporan Lanjutan:** Pemilihan sumber data, pemeriksaan kualitas data, penyaringan dataset, dan analisis deskriptif awal.
+- **Progress Week 1:** Identifikasi dan pemilihan permasalahan bisnis.https://docs.google.com/document/d/1qD2KYvRHlX5UdEqt_ob4JIAh346sGb7m_THqDHAQZ9Q/edit?usp=sharing
+- **Progress Week 2:** Pemilihan sumber data, pemeriksaan kualitas data, penyaringan dataset, dan analisis deskriptif awal. https://docs.google.com/document/d/1ulg6UFBwPkF0uURifE4QeyZD2HrUutfo4f81Uj9XVLw/edit?usp=sharing
 
-Laporan lengkap dan berkas pendukung dapat ditemukan pada folder `01-dokumentasi/` dan `02-data/`. atau https://docs.google.com/document/d/1qD2KYvRHlX5UdEqt_ob4JIAh346sGb7m_THqDHAQZ9Q/edit?usp=sharing
+Laporan lengkap dan berkas pendukung dapat ditemukan pada folder `01-dokumentasi/` dan `02-data/`.
 
 ## 10. Rencana Pengembangan Selanjutnya
 
