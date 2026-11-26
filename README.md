@@ -175,11 +175,7 @@ Hasil AI tidak langsung dianggap benar dan tetap harus diperiksa berdasarkan sum
 1. Farhamu. (2019). *Tokopedia Product Reviews 2019*. Hugging Face Dataset.  
    https://huggingface.co/datasets/farhamu/tokopedia-product-reviews-2019
 
-2. Materi perkuliahan Lab Sains Data, Pertemuan 8: Dari Keputusan ke Data.
-
-3. Panduan Tugas Kecil 1: Paket Dasar, Keputusan, dan Sumber Data.
-
-4. Dokumentasi Hugging Face Datasets:  
+2. Dokumentasi Hugging Face Datasets:  
    https://huggingface.co/docs/datasets
 
 ## 9. Dokumen Laporan Proyek
