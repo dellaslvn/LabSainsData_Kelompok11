@@ -4,7 +4,7 @@
 
 | Tanggal | Anggota | Tujuan/prompt ringkas | Bagian yang dibantu AI | Hasil AI yang digunakan | Pemeriksaan/perubahan manusia | Status |
 |---|---|---|---|---|---|---|
-| [isi tanggal] | [nama] | [tulis permintaan kepada AI] | [misalnya: penyusunan kode/filter/draf] | [ringkas hasil yang benar-benar dipakai] | [jelaskan pemeriksaan dan koreksi anggota] | [diperiksa/belum diperiksa] |
+| [26 November] | [Della Selviana] | [Meminta saran dan penjelasan ketika mengalami kesulitan dalam memahami dan menyusun beberapa bagian tugas Lab Sains Data.] | [Memberikan masukan mengenai ide permasalahan bisnis, sumber data, dan penyusunan dokumentasi tugas.] | [Beberapa saran dan alternatif sebagai bahan pertimbangan.] | [Menyesuaikan masukan dengan instruksi dosen dan kebutuhan tugas kelompok.] | [diperiksa] |
 
 ## Aturan
 1. Simpan prompt yang relevan atau ringkasan prompt agar proses dapat ditelusuri.
