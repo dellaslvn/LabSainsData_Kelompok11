@@ -1,0 +1,9 @@
+﻿kolom,tipe_konseptual,definisi,kegunaan;
+text,String,Teks ulasan pelanggan,Analisis teks dan anotasi aspek/sentimen;
+rating,Integer,Rating 1–5,Variabel pembanding; bukan label sentimen otomatis
+category,String,Kategori produk sumber,Filter kategori handphone;
+product_name,String,Nama produk/listing,Verifikasi relevansi produk;
+product_id,Integer/String,Pengenal produk,Pemeriksaan ulasan per produk;
+sold,String pada CSV,Informasi jumlah terjual,Perlu parsing dan validasi sebelum analisis numerik;
+shop_id,Integer/String,Pengenal toko,Pengelompokan toko;
+product_url,URL,Tautan produk,Referensi produk;
